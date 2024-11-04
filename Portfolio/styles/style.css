@@ -1,0 +1,108 @@
+@page {
+    size: A4;
+    margin: 20mm;
+}
+
+body {
+    background-color: #efeee7;
+    font-family: "Times New Roman", Times, serif;
+    color: #333333;
+    margin: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+
+header {
+    background-color: #333333;
+    text-align: center;
+    padding: 12px;
+}
+
+header h1 {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0;
+}
+
+#photo-section {
+    text-align: center;
+    margin-top: 10px;
+}
+
+#bio-image {
+    width: 180px;
+    border-radius: 50%;
+}
+
+#name-below-photo {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 4px;
+    color: #333333;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1024px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#main-bio {
+    display: flex;
+    align-items: center;
+    margin-bottom: auto;
+}
+
+#bio-info {
+    flex: 1;
+}
+
+#bio-image {
+    width: 180px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333333;
+    border-bottom: 2px solid #d21034;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+#skills,
+#languages,
+#contact-info {
+    margin-top: 20px;
+}
+
+#contact-info ul li {
+    line-height: 1.6;
+}
+
+a {
+    color: #d21034;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
